@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Styles for PostCard */
+.post-card {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px; /* Adds rounded corners to the card */
+  background-color: #fff; /* White background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the start */
+  margin-bottom: 15px; /* Adds spacing between multiple cards */
+  width: 280px; /* Set a fixed width */
+  text-align: center; /* Centers text */
+}
+
+.post-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+}
+
+.post-card p {
+  font-size: 14px;
+  color: #555; /* Lighter text color for body */
+  line-height: 1.5;
+}
+
+/* Styles for UserCard */
+.user-card {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px; /* Rounded corners for user card */
+  background-color: #f9f9f9; /* Light background color for the user card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px; /* Slightly wider card */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Adds spacing below the card */
+}
+
+.user-card .user-img {
+  border-radius: 50%; /* Makes the image round */
+  width: 100px; /* Sets a fixed width for the image */
+  height: 100px; /* Sets a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the circular space */
+  margin-bottom: 15px; /* Adds space below the image */
+}
+
+.user-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  margin-bottom: 10px; /* Adds spacing below the name */
+}
+
+.user-card p {
+  font-size: 14px;
+  color: #666; /* Lighter text color for phone and address */
+  margin: 5px 0; /* Adds vertical spacing between paragraphs */
+}
