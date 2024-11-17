@@ -1,7 +1,3 @@
-Sure! Here's a `README.md` tailored for your project:
-
----
-
 # Post & Profile App
 
 This React app fetches and displays user and post data from external APIs. It showcases how to handle asynchronous data fetching, error handling, and displaying data dynamically in a React app. The project includes a "Refresh" feature that allows users to reload user data.
